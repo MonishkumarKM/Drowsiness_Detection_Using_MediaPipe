@@ -20,11 +20,6 @@ To run this project, you need to have the following prerequisites:
 - Math
 - Pygame
 
-You can install the required packages by running the following command:
-
-```shell
-pip install -r requirements.txt
-```
 
 ## Installation
 1. Clone the repository:
