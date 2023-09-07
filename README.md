@@ -41,6 +41,12 @@ Follow the steps below to use the Attention Assist System:
    ```
    This command will execute the `drowsiness.py` script.
 
+2. Run the following command in the command prompt or terminal:
+   ```shell
+   camera.py
+   ```
+   This command will execute the `camera.py` script, and it's just a simple code to check whether the camera is active or not.
+
 ##
 
 [open an issue](https://github.com/ARWINDHRAJ/Attention-assist-system-using-MediaPipe/issues) on the GitHub repository for bug reports or feature requests.
