@@ -24,7 +24,7 @@ To run this project, you need to have the following prerequisites:
 ## Installation
 1. Clone the repository:
    ```shell
-   git clone https://github.com/ARWINDHRAJ/Attention-assist-system-using-MediaPipe.git
+   git clone https://github.com/MonishkumarKM/Drowsiness_Detection_Using_MediaPipe.git
    ```
 
 ## Usage
