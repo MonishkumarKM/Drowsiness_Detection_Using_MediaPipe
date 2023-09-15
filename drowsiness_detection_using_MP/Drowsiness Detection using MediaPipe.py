@@ -5,7 +5,7 @@ import numpy as np
 import math
 from pygame import mixer
 mixer.init()
-mixer.music.load("beep.wav")
+mixer.music.load("E:/github/drowsiness_detection_using_mediapipe/drowsiness_detection_using_MP/beep.wav")
 def dist(p,q):
     return math.sqrt(sum([(px-qx)**2 for px ,qx in zip(p,q)]))
 def ear(a1,a2,a3,a4,a5,a6):
@@ -203,6 +203,7 @@ while True:
             cv2.putText(image, text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
             if(yawn_alert>=5 or sleep_alert>=5):
                     cv2.putText(image, "***************ALERT***************", (100,100), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                    mixer.music.play()
     else:
         cv2.putText(image, "***********MAJOR DISTRACTION***********", (100,150), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
         mixer.music.play()
